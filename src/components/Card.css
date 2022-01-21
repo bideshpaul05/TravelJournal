@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Roboto&display=swap');
+*{
+    font-family: 'Asap', sans-serif;
+}
+
+
+
+.description{
+    margin: 50px;
+    display: flex;
+    gap:30px;
+    flex-wrap: wrap;
+}
+
+.card-details{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+.fa-map-marker-alt{
+    color: tomato;
+}
+.location-country{
+    letter-spacing: 2px;
+    margin-bottom: 5px ;
+}
+
+.location-place{
+    font-weight: bold;
+    font-size: 34px;
+    margin-bottom: 16px;
+}
+.duration{
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+.about{
+    max-width:700px;
+}
+.description img{
+    width: 250px;
+    height: 270px;
+    border-radius: 8px;
+}
